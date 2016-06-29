@@ -6,16 +6,21 @@ import com.kosta.inhair.domain.Post;
 
 public interface PostDAO {
 
-	//후기등록
+	// 후기등록
 	int postCreate(Post post);
-	//후기수정
+
+	// 후기수정
 	int postUpdate(Post post);
-	//후기삭제
+
+	// 후기삭제
 	int postDelete(int post_id);
-	//후기 검색
+
+	// 후기검색(Detail)
 	Post postSearch(int post_id);
-	//디자이너 별 후기 전체검색
-	List<Post> postAllSearch(String designer_id);
-	//후기 좋아요
+
+	// 디자이너 별 후기 리스트
+	List<Post> postList(String designer_id);
+
+	// 후기 좋아요
 	int postLikeCount(int post_id);
 }

@@ -5,14 +5,17 @@ import java.util.List;
 import com.kosta.inhair.domain.Product;
 
 public interface ProductDAO {
-	
-	//상품 등록
+
+	// 상품 등록
 	int productCreate(Product product);
-	//상품 수정
+
+	// 상품 수정
 	int productUpdate(Product product);
-	//상품 삭제
+
+	// 상품 삭제
 	int productDelete(int product_id);
-	//상품 검색
-	List<Product> productAllFind(int shop_id);
+
+	// 상품 리스트
+	List<Product> productAllSearch(int shop_id);
 
 }
