@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	
+	<typeAliases>
+		<typeAlias alias="Attraction" type="kr.or.kosta.domain.Attraction" />
+		<typeAlias alias="Post" type="kr.or.kosta.domain.Post" />
+		<typeAlias alias="Comment" type="kr.or.kosta.domain.Comment" />
+		<typeAlias alias="User" type="kr.or.kosta.domain.User" />
+ 	</typeAliases>
+
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC"/>
+			<dataSource type="POOLED">
+				<property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+				<property name="url" value="jdbc:oracle:thin:@localhost:1521:XE" />
+				<property name="username" value="hr" />
+				<property name="password" value="hr" />
+			</dataSource>
+		</environment>
+	</environments>
+
+	<mappers>
+		<mapper resource="mapper/UserMapper.xml"/>
+		<mapper resource="mapper/AttractionMapper.xml"/>
+		<mapper resource="mapper/PostMapper.xml"/>
+		<mapper resource="mapper/CommentMapper.xml"/>
+	</mappers>
+
+</configuration>
