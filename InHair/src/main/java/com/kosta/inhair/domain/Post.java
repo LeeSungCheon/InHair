@@ -6,7 +6,7 @@ public class Post {
 	private String title;
 	private String content;
 	private String img;
-	private double star_point;
+	private double starpoint;
 	private String writer;
 	private String designer_id;
 	private int like;
@@ -21,13 +21,13 @@ public class Post {
 	public void setImg(String img) {
 		this.img = img;
 	}
-
-	public double getStar_point() {
-		return star_point;
+	
+	public double getStarpoint() {
+		return starpoint;
 	}
 
-	public void setStar_point(double star_point) {
-		this.star_point = star_point;
+	public void setStarpoint(double starpoint) {
+		this.starpoint = starpoint;
 	}
 
 	public String getWriter() {

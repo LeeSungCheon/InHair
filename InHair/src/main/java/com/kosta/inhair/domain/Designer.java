@@ -10,9 +10,24 @@ public class Designer {
 	private String shopCode;
 	private String intro;
 	private String img;
-	private double star_point;
+	private double starpoint;
+	private int[] schedule = 
+		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+			0, 0, 0, 0, 0, 0, 0, 0
+	};
 	
 	public Designer(){}
+
+	public int[] getSchedule() {
+		return schedule;
+	}
+
+	public void setSchedule(int[] schedule) {
+		this.schedule = schedule;
+	}
 
 	public String getId() {
 		return id;
@@ -78,14 +93,12 @@ public class Designer {
 		this.img = img;
 	}
 
-	public double getStar_point() {
-		return star_point;
+	public double getStarpoint() {
+		return starpoint;
 	}
 
-	public void setStar_point(double star_point) {
-		this.star_point = star_point;
-	}
-	
-	
+	public void setStarpoint(double starpoint) {
+		this.starpoint = starpoint;
+	}	
 
 }

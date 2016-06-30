@@ -18,4 +18,7 @@ public interface UserService {
 
 	// 중복검사
 	boolean idCheck(String id);
+	
+	// 로그인
+	boolean login(String id, String password);
 }
