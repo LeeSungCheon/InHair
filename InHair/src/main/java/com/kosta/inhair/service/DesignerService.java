@@ -14,12 +14,18 @@ public interface DesignerService {
 
 	// 디자이너 검색(Detail)
 	Designer designerSearch(String designer_id);
+	
+	// 디자이너 이름검색(예약 시 사용)
+	Designer designerSearchByName(String shopCode, String designer_name);
 
 	// 디자이너 탈퇴
 	int designerDelete(String id);
 
 	// 디자이너 소속삭제
 	int designerOut(String id);
+	
+	// 헤어샵 소속 디자이너
+	List<Designer> designerListByhairshop(String shopCode);
 
 	// 지역별 디자이너 검색
 	List<Designer> designerListByAddress(String gu);
@@ -32,4 +38,13 @@ public interface DesignerService {
 
 	// 디자이너 별점 정렬
 	List<Designer> designerSortList(double star_point);
+	
+	// 운영시간에 따른 디자이너 스케줄 세팅
+	void openCloseDesignerSchedule(int open, int close, String shopCode);
+	
+	// 예약에 따른 디자이너 스케줄 세팅
+	void reserveDesignerSchedule(int time, int leadtime, String shopCode, String designer_name);
+	
+	// 일자 별 헤어샵 소속 디자이너 스케줄 리스트
+	List<Designer> designerListByDate(String shopCode, int date);
 }

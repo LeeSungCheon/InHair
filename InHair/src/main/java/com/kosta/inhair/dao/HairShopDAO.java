@@ -25,6 +25,4 @@ public interface HairShopDAO {
 	// 헤어샵 검색(address(주소))
 	List<HairShop> hairshopSearchByAddress(String gu);
 
-	// 헤어샵 소속 디자이너
-	List<Designer> hairshopDesigner(String shopCode);
 }

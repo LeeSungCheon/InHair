@@ -29,4 +29,7 @@ public interface DesignerDAO {
 
 	// 디자이너 별점 정렬
 	List<Designer> designerSortList(double star_point);
+	
+	// 헤어샵 소속 디자이너
+	List<Designer> designerListByhairshop(String shopCode);
 }

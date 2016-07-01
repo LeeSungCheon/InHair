@@ -4,12 +4,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.kosta.inhair.domain.User;
 
 public class UserController {
 	
-	public String userCreate(User user){
+	public ModelAndView userCreate(User user){
 		return null;
 	}
 	
@@ -17,21 +18,24 @@ public class UserController {
 		return null;
 	}
 	
-	public String login(String loginId, String password, HttpSession session) {
+	public ModelAndView login(String loginId, String password, HttpSession session) {
 		return null;
 	}
 	
-	public String logout(HttpServletRequest req) {
+	public ModelAndView logout(HttpServletRequest req) {
 		HttpSession session = req.getSession();
 		session.invalidate();
 
-		return "/Main";
-	}
-	
-	public String userDelete(String password, HttpSession session) {
 		return null;
 	}
 	
+	public ModelAndView userDelete(String password, HttpSession session) {
+		return null;
+	}
+	
+	public ModelAndView userUpdate(User user, HttpSession session) {
+		return null;
+	}
 	
 
 }
