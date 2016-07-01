@@ -25,7 +25,7 @@ public interface ReserveService {
 	List<Reserve> reserveList(String shopCode);
 
 	// 디자이너별 예약 리스트
-	List<Reserve> reserveListByDesigner(String designer_id);
+	List<Reserve> reserveListByDesigner(String shopCode, String designer_name);
 
 	// 개인 예약 현황
 	List<Reserve> reserveListByUser(String user_id);
