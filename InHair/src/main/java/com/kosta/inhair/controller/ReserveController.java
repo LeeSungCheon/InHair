@@ -40,4 +40,14 @@ public class ReserveController {
 		return null;
 	}
 
+	// 디자이너별 예약 리스트
+	public ModelAndView reserveListByDesigner(String shopCode, String designer_name) {
+		return null;
+	}
+
+	// 개인 예약 현황
+	public ModelAndView reserveListByUser(String user_id) {
+		return null;
+	}
+
 }
