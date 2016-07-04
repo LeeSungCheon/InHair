@@ -28,7 +28,7 @@ public interface DesignerService {
 	List<Designer> designerList();
 	
 	// 헤어샵 소속 디자이너
-	List<Designer> designerListByhairshop(String shopCode);
+	List<Designer> designerListByHairshop(String shopCode);
 
 	// 지역별 디자이너 검색
 	List<Designer> designerListByAddress(String gu);

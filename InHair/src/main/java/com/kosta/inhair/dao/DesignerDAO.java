@@ -31,5 +31,5 @@ public interface DesignerDAO {
 	boolean idCheck(String id);
 
 	// 헤어샵 소속 디자이너
-	List<Designer> designerListByhairshop(String shopCode);
+	List<Designer> designerListByHairshop(String shopCode);
 }
