@@ -24,7 +24,7 @@ public interface ReserveDAO {
 	// 헤어샵 별 전체 예약 리스트
 	List<Reserve> reserveList(String shopCode);
 
-	// 디자이너별 예약 리스트
+	// 디자이너별 예약 리스트(join문)
 	List<Reserve> reserveListByDesigner(String designer_id);
 
 	// 개인 예약 현황

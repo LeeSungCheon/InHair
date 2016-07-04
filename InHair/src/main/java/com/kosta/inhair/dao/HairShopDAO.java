@@ -17,7 +17,7 @@ public interface HairShopDAO {
 	HairShop hairshopSearch(String shopCode);
 
 	// 모든 헤어샵 검색
-	List<HairShop> hairShopList();
+	List<HairShop> hairshopList();
 
 	// 헤어샵 검색(name(상호명))
 	List<HairShop> hairshopSearchByName(String name);

@@ -24,5 +24,6 @@ public interface PostService {
 	// 후기 좋아요
 	int postLikeCount(int post_id);
 	
-	//별점평균
+	//별점평균(안에 allStarpoint를 쓰고 나누는 로직 넣음)
+	double avgStarpoint(String designer_id);
 }
