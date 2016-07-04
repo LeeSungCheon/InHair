@@ -17,7 +17,10 @@ public interface PortfolioDAO {
 	
 	// 포트폴리오 검색(id)
 	Portfolio portfolioSearch(int portfolio_id);
+	
+	//포트폴리오 리스트(헤어샵 전체)
+	List<Portfolio> portfolioList(String shopCode);
 
-	// 포토폴리오 리스트
-	List<Portfolio> portfolioList(String designer_id);
+	// 포토폴리오 리스트(헤어샵 디자이너 별)
+	List<Portfolio> portfolioListByDesigner(String designer_id);
 }
