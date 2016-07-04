@@ -10,6 +10,7 @@ public class Designer {
 	private String shopCode;
 	private String intro;
 	private String img;
+	private String rank;
 	private double starpoint;
 	private int[] schedule = 
 		{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
@@ -20,6 +21,14 @@ public class Designer {
 	};
 	
 	public Designer(){}
+	
+	public String getRank() {
+		return rank;
+	}
+
+	public void setRank(String rank) {
+		this.rank = rank;
+	}
 
 	public int[] getSchedule() {
 		return schedule;

@@ -25,7 +25,7 @@ public class ReserveController {
 		return null;
 	}
 
-	// 예약 완료(마일리지 적립)
+	// 예약 완료(마일리지 적립 시술금액의 5%)
 	public ModelAndView fulfillReserve(String userId) {
 		return null;
 	}

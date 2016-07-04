@@ -7,6 +7,7 @@ public class User {
 	private String name;
 	private String phonenum;
 	private String email;
+	private String rank;
 	private int mileage;
 	
 	public User(){}
@@ -18,6 +19,15 @@ public class User {
 		this.phonenum = phonenum;
 		this.email = email;
 	}
+	
+	public String getRank() {
+		return rank;
+	}
+
+	public void setRank(String rank) {
+		this.rank = rank;
+	}
+
 	public int getMileage() {
 		return mileage;
 	}

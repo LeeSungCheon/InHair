@@ -8,6 +8,7 @@ public class HairShop {
 	private String address;
 	private String intro;
 	private String img;
+	private String rank;
 	private int open;
 	private int close;
 	
@@ -20,6 +21,14 @@ public class HairShop {
 
 	public void setCode(String code) {
 		this.code = code;
+	}
+	
+	public String getRank() {
+		return rank;
+	}
+
+	public void setRank(String rank) {
+		this.rank = rank;
 	}
 
 	public String getShopName() {
