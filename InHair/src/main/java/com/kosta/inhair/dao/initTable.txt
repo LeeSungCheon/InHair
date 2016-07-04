@@ -1,0 +1,98 @@
+-- 테이블 초기화
+drop table user_ta;
+drop table hairshop_ta;
+drop table designer_ta;
+drop table reserve_ta;
+drop table product_ta;
+drop table portfolio_ta;
+drop table post_ta;
+
+-- 테이블 생성
+create table user_ta (
+  id        VARCHAR(20) NOT NULL,
+  password  VARCHAR(20),
+  name      VARCHAR(20),
+  phonenum  VARCHAR(20),
+  email     VARCHAR(50),
+  mileage   INT,
+  PRIMARY KEY (id)
+);
+
+create table hairShop_ta (
+  code      VARCHAR(100) NOT NULL,
+  password  VARCHAR(20),
+  tel       VARCHAR(20),
+  addrees   VARCHAR(200),
+  shopName  VARCHAR(200),
+  intro     VARCHAR(200),
+  img       VARCHAR(200),
+  open      INT,
+  close     INT,
+  PRIMARY KEY (code)
+);
+
+create table designer_ta (
+  id        VARCHAR(20) NOT NULL,
+  password  VARCHAR(20),
+  name      VARCHAR(20),
+  phonenum  VARCHAR(20),
+  email     VARCHAR(50),
+  intro     VARCHAR(200),
+  img       VARCHAR(200),
+  starpoint NUMBER,
+  shopCode  VARCHAR(100),
+  PRIMARY KEY (id)
+);
+
+create table reserve_ta (
+  reserve_id    INT NOT NULL,
+  shopName      VARCHAR(200),
+  designerName  VARCHAR(100),
+  days          INT,
+  time          INT,
+  productName   VARCHAR(100),
+  leadtime      INT,
+  userName      VARCHAR(20),
+  userPhone     VARCHAR(20),
+  userId        VARCHAR(20),
+  shopCode      VARCHAR(100),
+  PRIMARY KEY (reserve_id)
+);
+
+create table product_ta (
+  product_id    INT NOT NULL,
+  name          VARCHAR(100),
+  leadtime      INT,
+  price         INT,
+  shopCode      VARCHAR(100),
+  PRIMARY KEY (product_id)
+);
+
+create table portfolio_ta (
+  portfolio_id  INT NOT NULL,
+  title         VARCHAR(200),
+  content       VARCHAR(500),
+  img           VARCHAR(200),
+  designer_id   VARCHAR(20),
+  PRIMARY KEY (portfolio_id)
+);
+
+create table post_ta (
+  post_id       INT NOT NULL,
+  title         VARCHAR(200),
+  content       VARCHAR2(4000),
+  starpoint     NUMBER,
+  img           VARCHAR(200),
+  writer        VARCHAR(20),
+  liked         INT,
+  designer_id   VARCHAR(20),
+  PRIMARY KEY (post_id)
+);
+
+-- 포트폴리오, 후기, 시술, 예약 테이블 시퀀스 생성
+CREATE SEQUENCE PORTFOLIO_TA_SEQ START WITH 1 INCREMENT BY 1;
+CREATE SEQUENCE POST_TA_SEQ START WITH 1 INCREMENT BY 1;
+CREATE SEQUENCE PRODUCT_TA_SEQ START WITH 1 INCREMENT BY 1;
+CREATE SEQUENCE RESERVE_TA_SEQ START WITH 1 INCREMENT BY 1;
+
+commit;
