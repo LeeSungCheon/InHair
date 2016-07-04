@@ -13,7 +13,10 @@ public interface PortfolioService {
 	int portfolioUpdate(Portfolio portfolio);
 
 	// 포트폴리오 삭제
-	int portfolioDelete(String portfolio_id);
+	int portfolioDelete(int portfolio_id);
+	
+	//포트폴리오 검색(id)
+	Portfolio portfolioSearch(int portfolio_id);
 
 	// 포토폴리오 리스트
 	List<Portfolio> portfolioList(String designer_id);

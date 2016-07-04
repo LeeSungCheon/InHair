@@ -21,6 +21,9 @@ public interface DesignerDAO {
 	// 디자이너 소속삭제
 	int designerOut(String id);
 
+	// 모든 디자이너 검색
+	List<Designer> designerList();
+
 	// 지역별 디자이너 검색
 	List<Designer> designerListByAddress(String gu);
 
@@ -29,7 +32,7 @@ public interface DesignerDAO {
 
 	// 디자이너 별점 정렬
 	List<Designer> designerSortList(double star_point);
-	
+
 	// 헤어샵 소속 디자이너
 	List<Designer> designerListByhairshop(String shopCode);
 }

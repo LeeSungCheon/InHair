@@ -24,6 +24,9 @@ public interface DesignerService {
 	// 디자이너 소속삭제
 	int designerOut(String id);
 	
+	//모든 디자이너 검색
+	List<Designer> designerList();
+	
 	// 헤어샵 소속 디자이너
 	List<Designer> designerListByhairshop(String shopCode);
 

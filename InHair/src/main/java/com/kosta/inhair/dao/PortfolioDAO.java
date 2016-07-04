@@ -14,6 +14,9 @@ public interface PortfolioDAO {
 
 	// 포트폴리오 삭제
 	int portfolioDelete(String portfolio_id);
+	
+	// 포트폴리오 검색(id)
+	Portfolio portfolioSearch(int portfolio_id);
 
 	// 포토폴리오 리스트
 	List<Portfolio> portfolioList(String designer_id);
