@@ -7,10 +7,13 @@
 <configuration>
 	
 	<typeAliases>
-		<typeAlias alias="Attraction" type="kr.or.kosta.domain.Attraction" />
-		<typeAlias alias="Post" type="kr.or.kosta.domain.Post" />
-		<typeAlias alias="Comment" type="kr.or.kosta.domain.Comment" />
-		<typeAlias alias="User" type="kr.or.kosta.domain.User" />
+		<typeAlias alias="Designer" type="com.kosta.inhair.domain.Designer" />
+		<typeAlias alias="HairShop" type="com.kosta.inhair.domain.HairShop" />
+		<typeAlias alias="Portfolio" type="com.kosta.inhair.domain.Portfolio" />
+		<typeAlias alias="Post" type="com.kosta.inhair.domain.Post" />
+		<typeAlias alias="Product" type="com.kosta.inhair.domain.Product" />
+		<typeAlias alias="Reserve" type="com.kosta.inhair.domain.Reserve" />
+		<typeAlias alias="User" type="com.kosta.inhair.domain.User" />
  	</typeAliases>
 
 	<environments default="development">
@@ -26,10 +29,13 @@
 	</environments>
 
 	<mappers>
-		<mapper resource="mapper/UserMapper.xml"/>
-		<mapper resource="mapper/AttractionMapper.xml"/>
+		<mapper resource="mapper/DesignerMapper.xml"/>
+		<mapper resource="mapper/HairShopMapper.xml"/>
+		<mapper resource="mapper/PortfolioMapper.xml"/>
 		<mapper resource="mapper/PostMapper.xml"/>
-		<mapper resource="mapper/CommentMapper.xml"/>
+		<mapper resource="mapper/ProductMapper.xml"/>
+		<mapper resource="mapper/ReserveMapper.xml"/>
+		<mapper resource="mapper/UserMapper.xml"/>
 	</mappers>
 
 </configuration>
