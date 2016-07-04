@@ -9,7 +9,7 @@ public class Post {
 	private double starpoint;
 	private String writer;
 	private String designer_id;
-	private int like;
+	private int liked;
 	
 	public Post(){}
 	
@@ -61,17 +61,17 @@ public class Post {
 	public String getContent() {
 		return content;
 	}
+	
 	public void setContent(String content) {
 		this.content = content;
 	}
-	
-	public int getLike() {
-		return like;
+
+	public int getLiked() {
+		return liked;
 	}
-	public void setLike(int like) {
-		this.like = like;
-	}
-	
-	
+
+	public void setLiked(int liked) {
+		this.liked = liked;
+	}	
 
 }

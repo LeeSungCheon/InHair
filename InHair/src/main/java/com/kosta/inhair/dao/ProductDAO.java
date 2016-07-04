@@ -7,7 +7,7 @@ import com.kosta.inhair.domain.Product;
 public interface ProductDAO {
 
 	// 상품 등록
-	int productCreate(Product product);
+	int productCreate(Product product, String shopCode);
 
 	// 상품 수정
 	int productUpdate(Product product);
@@ -16,6 +16,6 @@ public interface ProductDAO {
 	int productDelete(int product_id);
 
 	// 상품 리스트
-	List<Product> productAllSearch(int shop_id);
+	List<Product> productAllSearch(String shopCode);
 
 }

@@ -3,10 +3,10 @@ package com.kosta.inhair.domain;
 public class Reserve {
 	
 	private int reserve_id;
-	private String shop_name;
+	private String shopName;
 	private String productName;
 	private String designerName;
-	private int date;
+	private int days;
 	private int time;
 	private int leadtime;
 	private String userName;
@@ -22,13 +22,13 @@ public class Reserve {
 	public void setReserve_id(int reserve_id) {
 		this.reserve_id = reserve_id;
 	}
-
-	public String getShop_name() {
-		return shop_name;
+	
+	public String getShopName() {
+		return shopName;
 	}
 
-	public void setShop_name(String shop_name) {
-		this.shop_name = shop_name;
+	public void setShopName(String shopName) {
+		this.shopName = shopName;
 	}
 
 	public String getProductName() {
@@ -46,13 +46,13 @@ public class Reserve {
 	public void setDesignerName(String designerName) {
 		this.designerName = designerName;
 	}
-
-	public int getDate() {
-		return date;
+	
+	public int getDays() {
+		return days;
 	}
 
-	public void setDate(int date) {
-		this.date = date;
+	public void setDays(int days) {
+		this.days = days;
 	}
 
 	public int getTime() {

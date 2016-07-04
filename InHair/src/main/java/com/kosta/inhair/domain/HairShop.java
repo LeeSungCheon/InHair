@@ -2,7 +2,7 @@ package com.kosta.inhair.domain;
 
 public class HairShop {
 	
-	private String coode;
+	private String code;
 	private String shopName;
 	private String tel;
 	private String address;
@@ -13,12 +13,13 @@ public class HairShop {
 	
 	public HairShop(){}
 
-	public String getCoode() {
-		return coode;
+
+	public String getCode() {
+		return code;
 	}
 
-	public void setCoode(String coode) {
-		this.coode = coode;
+	public void setCode(String code) {
+		this.code = code;
 	}
 
 	public String getShopName() {

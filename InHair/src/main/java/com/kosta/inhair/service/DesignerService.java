@@ -38,9 +38,6 @@ public interface DesignerService {
 	
 	// 로그인
 	boolean login(String id, String password);
-
-	// 디자이너 별점 정렬
-	List<Designer> designerSortList(double star_point);
 	
 	// 운영시간에 따른 디자이너 스케줄 세팅
 	void openCloseDesignerSchedule(int open, int close, String shopCode);
