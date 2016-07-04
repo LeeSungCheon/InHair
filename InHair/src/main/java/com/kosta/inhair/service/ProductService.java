@@ -15,6 +15,9 @@ public interface ProductService {
 	// 상품 삭제
 	int productDelete(int product_id);
 	
+	// 상품 검색
+	Product productSearch(int product_id);
+	
 	// 상품 리스트
 	List<Product> productAllSearch(String shopCode);
 }
