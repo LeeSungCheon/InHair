@@ -6,6 +6,15 @@
 
 <mapper namespace="com.kosta.inhair.dao.mapper.UserMapper">
 
+	<insert id="userCreate" parameterType="User">
+		INSERT INTO user_ta(id, password, name, phonenum, email, mileage)
+	 	VALUES(#{id}, #{password}, #{name}, #{phonenum}, #{email}, #{mileage})
+	</insert>
+	
+	<select id="idCheck" parameterType="String" resultType="User">
+		SELECT * FROM user_ta
+		WHERE id = #{id}
+	</select>
 	
 
 </mapper>

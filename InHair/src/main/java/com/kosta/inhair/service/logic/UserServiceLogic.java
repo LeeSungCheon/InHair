@@ -15,8 +15,7 @@ public class UserServiceLogic implements UserService {
 
 	@Override
 	public int userCreate(User user) {
-		// TODO Auto-generated method stub
-		return 0;
+		return userDAO.userCreate(user);
 	}
 
 	@Override
@@ -39,8 +38,7 @@ public class UserServiceLogic implements UserService {
 
 	@Override
 	public boolean idCheck(String id) {
-		// TODO Auto-generated method stub
-		return false;
+		return userDAO.idCheck(id);
 	}
 
 	@Override

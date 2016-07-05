@@ -6,6 +6,9 @@
 
 <mapper namespace="com.kosta.inhair.dao.mapper.DesignerMapper">
 
-
+	<insert id="designerCreate" parameterType="Designer">
+		INSERT INTO designer_ta(id, password, name, phonenum, email, intro, img, startpoint, shopcode)
+		VALUES(#{id}, #{password}, #{name}, #{phonenum}, #{email}, #{intro}, #{img}, #{startpoint}, #{shopcode})
+	</insert>
 
 </mapper>

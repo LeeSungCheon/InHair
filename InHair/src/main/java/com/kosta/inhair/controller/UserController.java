@@ -31,7 +31,11 @@ public class UserController {
 	
 	@RequestMapping("/user/join")
 	public ModelAndView userCreate(User user){
-		return null;
+		user.setMileage(0);
+		user.setRank("N");
+		userService.userCreate(user);
+		ModelAndView modelAndView = new ModelAndView("redirect:/");
+		return modelAndView;
 	}
 	
 	@RequestMapping("/user/joinView")
@@ -40,20 +44,14 @@ public class UserController {
 		return modelAndView;
 	}
 	
-	@RequestMapping("/designer/joinView")
-	public ModelAndView userCreateView1(){
-		ModelAndView modelAndView = new ModelAndView("designer/join_d");
-		return modelAndView;
-	}
-	
-	@RequestMapping("/hairshop/joinView")
-	public ModelAndView userCreateView2(){
-		ModelAndView modelAndView = new ModelAndView("hairshop/join_h");
-		return modelAndView;
-	}
-	
+	@RequestMapping("/user/idCheck")
 	public @ResponseBody String idCheck(String loginId) {
-		return null;
+		boolean result = userService.idCheck(loginId);
+
+		if (result) {
+			return "true";
+		}
+		return "false";
 	}
 	
 	public ModelAndView login(String loginId, String password, HttpSession session) {

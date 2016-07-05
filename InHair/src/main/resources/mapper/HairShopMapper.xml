@@ -6,6 +6,15 @@
 
 <mapper namespace="com.kosta.inhair.dao.mapper.HairShopMapper">
 
-
+	<insert id="hairshopCreate" parameterType="HairShop">
+		INSERT INTO hairshop_ta(code, password, tel, address, shopname, intro, img, open, close)
+		VALUES(#{code}, #{password}, #{tel}, #{address}, #{shopName}, #{intro}, #{img}, #{open}, #{close})
+	</insert>
+	
+	<select id="codeCheck" parameterType="String" resultType="HairShop">
+		SELECT * FROM hairshop_ta
+		WHERE code = #{shopCode}
+		AND password is null	
+	</select>
 
 </mapper>

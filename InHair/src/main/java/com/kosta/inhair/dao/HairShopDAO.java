@@ -7,6 +7,9 @@ import com.kosta.inhair.domain.HairShop;
 
 public interface HairShopDAO {
 
+	// 헤어샵코드 검사
+	boolean codeCheck(String shopCode);
+
 	// 헤어샵 등록
 	int hairshopCreate(HairShop hairshop);
 
