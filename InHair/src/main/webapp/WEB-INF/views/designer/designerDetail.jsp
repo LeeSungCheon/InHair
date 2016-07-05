@@ -22,7 +22,7 @@
 
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="${ctx}/${ctx}/resources/css/bootstrap.css">
+    <link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -42,12 +42,12 @@
             <p>스스로 감탄할 정도로 잘함</p>
             <hr/>
             <h3 align="center">스타일</h3>
-            <div align="center"><img src="${ctx}/${ctx}/resources/images/line.png" width="40%"></div>
+            <div align="center"><img src="${ctx}/resources/images/line.png" width="40%"></div>
             <br>
 
             <div class="row text-center">
                 <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                    <div class="styles"><img src="${ctx}/${ctx}/resources/images/Andre03.JPG" alt="Thumbnail Image 1" class="img-responsive1">
+                    <div class="styles"><img src="${ctx}/resources/images/Andre03.JPG" alt="Thumbnail Image 1" class="img-responsive1">
                         <div class="caption">
                             <h3>남자 머리</h3>
                             <p>한줄 설명</p>
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                    <div class="styles"><img src="${ctx}/${ctx}/resources/images/Yoonkyo01-04.JPG" alt="Thumbnail Image 1"
+                    <div class="styles"><img src="${ctx}/resources/images/Yoonkyo01-04.JPG" alt="Thumbnail Image 1"
                                              class="img-responsive1">
                         <div class="caption">
                             <h3>우리헤어</h3>
