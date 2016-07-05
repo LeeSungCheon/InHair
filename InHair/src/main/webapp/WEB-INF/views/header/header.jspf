@@ -20,7 +20,7 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button> <a class="navbar-brand" href="#"><img
-						src="resources/images/logo.png" width="170px" /></a>
+						src="${ctx}/resources/images/logo.png" width="170px" /></a>
 				</span>
 				<div class="collapse navbar-collapse"
 					id="bs-example-navbar-collapse-1">
@@ -34,11 +34,11 @@
 					</ul>
 					<span class="collapse navbar-collapse" id="myInverseNavbar2">
 						<ul class="nav navbar-nav navbar-right">
-					
-					
+
+
 							<li><a href="#" data-toggle="modal"
 								data-target="#login-modal">로그인</a></li>
-							<li><a href="#">회원가입</a></li>
+							<li><a href="${ctx}/join">회원가입</a></li>
 						</ul>
 					</span>
 				</div>
@@ -66,14 +66,14 @@
 							<div class="btn-group" data-toggle="buttons" align="center">
 
 								<label class="btn btn-primary"> 일반회원 <input type="radio"
-									name="options" id="option2" autocomplete="off"> <span
-									class="glyphicon glyphicon-ok"></span>
-								</label> <label class="btn btn-primary"> 디자이너 <input
-									type="radio" name="options" id="option1" autocomplete="off">
+									name="options" id="option1" autocomplete="off" value="N">
 									<span class="glyphicon glyphicon-ok"></span>
+								</label> <label class="btn btn-primary"> 디자이너 <input
+									type="radio" name="options" id="option2" autocomplete="off"
+									value="D"> <span class="glyphicon glyphicon-ok"></span>
 								</label> <label class="btn btn-primary"> 관리자 <input type="radio"
-									name="options" id="option3" autocomplete="off"> <span
-									class="glyphicon glyphicon-ok"></span>
+									name="options" id="option3" autocomplete="off" value="H">
+									<span class="glyphicon glyphicon-ok"></span>
 								</label>
 
 							</div>
@@ -82,8 +82,10 @@
 							<hr>
 							<!--@@@@@@@@@@@@로그인 라디오꿑@@@@@@@@2@@@@@-->
 
-							<input type="text" name="user" placeholder="ID"> <input
-								type="password" name="pass" placeholder="Password"> <input
+							<input type="text" name="user" placeholder="ID"> 
+							<input
+								type="password" name="pass" placeholder="Password"> 
+							<input
 								type="submit" name="login" class="login loginmodal-submit"
 								value="Login">
 						</form>
@@ -96,7 +98,7 @@
 			</div>
 			<div style="height: 100px"></div>
 
-			<img id="mainimg" src="resources/images/main.png" /> <br> <br>
+			<img id="mainimg" src="${ctx}/resources/images/main.png" /> <br> <br>
 		</div>
 	</c:when>
 
@@ -114,7 +116,7 @@
 							class="icon-bar"></span> <span class="icon-bar"></span> <span
 							class="icon-bar"></span>
 					</button> <a class="navbar-brand" href="#"><img
-						src="resources/images/logo.png" width="170px" /></a>
+						src="${ctx}/resources/images/logo.png" width="170px" /></a>
 				</span>
 
 
@@ -138,9 +140,10 @@
 					<span class="collapse navbar-collapse" id="myInverseNavbar2">
 						<ul class="nav navbar-nav navbar-right">
 
-						<c:if test="${loginedUser.rank eq 'N'}">
-							<li style="font-size: 16px"><a disabled="disabled">나의 마일리지 : P</a></li>
-						</c:if>
+							<c:if test="${loginedUser.rank eq 'N'}">
+								<li style="font-size: 16px"><a disabled="disabled">나의
+										마일리지 : P</a></li>
+							</c:if>
 							<li><a href="#">마이페이지</a></li>
 							<li><a href="#">로그아웃</a></li>
 						</ul>
@@ -152,7 +155,7 @@
 
 		<div class="container">
 			<div style="height: 100px"></div>
-			<img id="mainimg" src="resources/images/main.png" /> <br> <br>
+			<img id="mainimg" src="${ctx}/resources/images/main.png" /> <br> <br>
 		</div>
 	</c:otherwise>
 </c:choose>

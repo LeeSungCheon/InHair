@@ -18,7 +18,7 @@
 	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="resources/css/bootstrap.css">
+<link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -94,7 +94,7 @@
 		<br>
 		<h2 align="center">SHOPS</h2>
 		<div align="center">
-			<img src="resources/images/line.png" width="40%">
+			<img src="${ctx}/resources/images/line.png" width="40%">
 		</div>
 		<br> <br>
 	</div>
@@ -105,14 +105,12 @@
 			<div class="container">
 				<div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
 					<div class="card hovercard">
-						<img src="resources/images/chungdam02.jpg" alt="Thumbnail Image 1" />
+						<img src="${ctx}/resources/images/chungdam02.jpg" alt="Thumbnail Image 1" />
 						<br> <br>
 						<div class="info">
 
 							<div class="title">청담헤어</div>
 							<div class="desc">한줄설명</div>
-							<div class="desc">Lorem ipsum</div>
-							<div class="desc">Lorem ipsum</div>
 						</div>
 						<div class="bottom">
 							<button class="btn btn-default">GO</button>
@@ -124,13 +122,11 @@
 
 				<div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
 					<div class="card hovercard">
-						<img src="resources/images/eltreshair01.jpg"
+						<img src="${ctx}/resources/images/eltreshair01.jpg"
 							alt="Thumbnail Image 1" /> <br> <br>
 						<div class="info">
 							<div class="title">신사헤어</div>
 							<div class="desc">한줄설명</div>
-							<div class="desc">Lorem ipsum</div>
-							<div class="desc">Lorem ipsum</div>
 						</div>
 						<div class="bottom">
 							<button class="btn btn-default">GO</button>
@@ -140,13 +136,11 @@
 
 				<div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
 					<div class="card hovercard">
-						<img src="resources/images/eltreshair02.jpg"
+						<img src="${ctx}/resources/images/eltreshair02.jpg"
 							alt="Thumbnail Image 1" /> <br> <br>
 						<div class="info">
 							<div class="title">우리헤어</div>
 							<div class="desc">한줄설명</div>
-							<div class="desc">Lorem ipsum</div>
-							<div class="desc">Lorem ipsum</div>
 						</div>
 						<div class="bottom">
 							<button class="btn btn-default">GO</button>
@@ -163,13 +157,11 @@
 
 				<div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
 					<div class="card hovercard">
-						<img src="resources/images/chungdam01.jpg" alt="Thumbnail Image 1" />
+						<img src="${ctx}/resources/images/chungdam01.jpg" alt="Thumbnail Image 1" />
 						<br> <br>
 						<div class="info">
 							<div class="title">반포헤어</div>
 							<div class="desc">한줄설명</div>
-							<div class="desc">Lorem ipsum</div>
-							<div class="desc">Lorem ipsum</div>
 						</div>
 						<div class="bottom">
 							<button class="btn btn-default">GO</button>
@@ -180,13 +172,11 @@
 
 				<div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
 					<div class="card hovercard">
-						<img src="resources/images/kangnam02.JPG" alt="Thumbnail Image 1" />
+						<img src="${ctx}/resources/images/kangnam02.JPG" alt="Thumbnail Image 1" />
 						<br> <br>
 						<div class="info">
 							<div class="title">가산헤어</div>
 							<div class="desc">한줄설명</div>
-							<div class="desc">Lorem ipsum</div>
-							<div class="desc">Lorem ipsum</div>
 						</div>
 						<div class="bottom">
 							<button class="btn btn-default">GO</button>
@@ -196,13 +186,11 @@
 
 				<div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
 					<div class="card hovercard">
-						<img src="resources/images/sinsa01.JPG" alt="Thumbnail Image 1" />
+						<img src="${ctx}/resources/images/sinsa01.JPG" alt="Thumbnail Image 1" />
 						<br> <br>
 						<div class="info">
 							<div class="title">구로헤어</div>
 							<div class="desc">한줄설명</div>
-							<div class="desc">Lorem ipsum</div>
-							<div class="desc">Lorem ipsum</div>
 						</div>
 						<div class="bottom">
 							<button class="btn btn-default">GO</button>
@@ -221,8 +209,8 @@
 	</footer>
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="resources/js/jquery-1.11.3.min.js"></script>
+	<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="resources/js/bootstrap.js"></script>
+	<script src="${ctx}/resources/js/bootstrap.js"></script>
 </body>
 </html>

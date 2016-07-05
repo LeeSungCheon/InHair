@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="resources/css/bootstrap.css">
+<link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -43,7 +43,7 @@
         <br/>
         <table cellspacing="10px;">
             <tr align="left">
-                <td rowspan="5"><img class="shopimg" src="resources/images/chungdam02.jpg"></td>
+                <td rowspan="5"><img class="shopimg" src="${ctx}/resources/images/chungdam02.jpg"></td>
                 <td colspan="2"><h2>유지승 뷰티살롱</h2></td>
             </tr>
             <tr align="left">
@@ -70,7 +70,7 @@
         <br>
     
         <h3 align="center">디자이너 소개</h3>
-        <div align="center"><img src="resources/images/line.png" width="40%"></div>
+        <div align="center"><img src="${ctx}/resources/images/line.png" width="40%"></div>
 
         <br>
         <br>
@@ -78,7 +78,7 @@
 
             <div class="col-lg-4 col-sm-12 text-center"><a href="#"><img class="img-circle" alt="140x140"
                                                                          style="width: 140px; height: 140px;"
-                                                                         src="resources/images/Park.JPG"
+                                                                         src="${ctx}/resources/images/Park.JPG"
                                                                          data-holder-rendered="true"></a>
                 <h3 class="designerH">박유철</h3>
                 <p class="designerp">★★★★★</p>
@@ -88,7 +88,7 @@
             </div>
             <div class="col-lg-4 col-sm-12 text-center"><a href="#"><img class="img-circle" alt="140x140"
                                                                          style="width: 140px; height: 140px;"
-                                                                         src="resources/images/Lee.jpg"
+                                                                         src="${ctx}/resources/images/Lee.jpg"
                                                                          data-holder-rendered="true"></a>
                 <h3 class="designerH">한경철</h3>
                 <p class="designerp">★★★★★</p>
@@ -99,7 +99,7 @@
             </div>
             <div class="col-lg-4 col-sm-12 text-center"><a href="#"><img class="img-circle" alt="140x140"
                                                                          style="width: 140px; height: 140px;"
-                                                                         src="resources/images/jiyeon.JPG"
+                                                                         src="${ctx}/resources/images/jiyeon.JPG"
                                                                          data-holder-rendered="true"></a>
                 <h3 class="designerH">윤종해</h3>
                 <p class="designerp">★★★★★</p>
@@ -110,7 +110,7 @@
             </div>
             <div class="col-lg-4 col-sm-12 text-center"><a href="#"><img class="img-circle" alt="140x140"
                                                                          style="width: 140px; height: 140px;"
-                                                                         src="resources/images/Andre01.JPG"
+                                                                         src="${ctx}/resources/images/Andre01.JPG"
                                                                          data-holder-rendered="true"></a>
                 <h3 class="designerH">이유진</h3>
                 <p class="designerp">★★★★★</p>
@@ -120,7 +120,7 @@
             </div>
             <div class="col-lg-4 col-sm-12 text-center"><a href="#"><img class="img-circle" alt="140x140"
                                                                          style="width: 140px; height: 140px;"
-                                                                         src="resources/images/kyuri01.JPG"
+                                                                         src="${ctx}/resources/images/kyuri01.JPG"
                                                                          data-holder-rendered="true"></a>
                 <h3 class="designerH">이성천</h3>
                 <p class="designerp">★★★★★</p>
@@ -131,7 +131,7 @@
             </div>
             <div class="col-lg-4 col-sm-12 text-center"><a href="#"><img class="img-circle" alt="140x140"
                                                                          style="width: 140px; height: 140px;"
-                                                                         src="resources/images/hyelim01.JPG"
+                                                                         src="${ctx}/resources/images/hyelim01.JPG"
                                                                          data-holder-rendered="true"></a>
                 <h3 class="designerH">박지혜</h3>
                 <p class="designerp">★★★★★</p>
@@ -145,7 +145,7 @@
         <br>
      
         <h3 align="center">지도</h3>
-        <div align="center"><img src="resources/images/line.png" width="40%"></div>
+        <div align="center"><img src="${ctx}/resources/images/line.png" width="40%"></div>
         <br>
         <br>
 
@@ -161,7 +161,7 @@
         <br>
         <div class="row text-center">
             <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                <div class="styles"><img src="resources/images/Andre03.JPG" alt="Thumbnail Image 1" class="img-responsive1">
+                <div class="styles"><img src="${ctx}/resources/images/Andre03.JPG" alt="Thumbnail Image 1" class="img-responsive1">
                     <div class="caption">
                         <h3>디지털펌</h3>
                         <p>박지혜</p>
@@ -171,7 +171,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                <div class="styles"><img src="resources/images/Lee02.JPG" alt="Thumbnail Image 1" class="img-responsive1">
+                <div class="styles"><img src="${ctx}/resources/images/Lee02.JPG" alt="Thumbnail Image 1" class="img-responsive1">
                     <div class="caption">
                         <h3>커트</h3>
                         <p>박지혜</p>
@@ -181,7 +181,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                <div class="styles"><img src="resources/images/Yoonkyo01-04.JPG" alt="Thumbnail Image 1"
+                <div class="styles"><img src="${ctx}/resources/images/Yoonkyo01-04.JPG" alt="Thumbnail Image 1"
                                          class="img-responsive1">
                     <div class="caption">
                         <h3>염색</h3>
@@ -192,7 +192,7 @@
                 </div>
             </div>
             <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                <div class="styles"><img src="resources/images/Taemin02.JPG" alt="Thumbnail Image 1" class="img-responsive1">
+                <div class="styles"><img src="${ctx}/resources/images/Taemin02.JPG" alt="Thumbnail Image 1" class="img-responsive1">
                     <div class="caption">
                         <h3>파마</h3>
                         <p>박지혜</p>
@@ -217,8 +217,8 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="resources/js/jquery-1.11.3.min.js"></script>
+<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="resources/js/bootstrap.js"></script>
+<script src="${ctx}/resources/js/bootstrap.js"></script>
 </body>
 </html>

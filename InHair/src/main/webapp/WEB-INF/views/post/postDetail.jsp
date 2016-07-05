@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="resources/css/bootstrap.css">
+<link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -56,14 +56,14 @@
                <a href="#" align="right">수정</a> <a href="#" align="right">삭제</a></span></td>
             </tr>
             <tr>
-                <td colspan="6"><img src="resources/images/hyelim02.JPG">
+                <td colspan="6"><img src="${ctx}/resources/images/hyelim02.JPG">
                     <br><br>
                     <div style="margin-left:20px" align="justify">머리 잘하시네요
                         추천드려요.
                     </div>
 
                     <div>
-                        <p style="font-size:30px"><a href="#">추천하기<img width="50px" src="resources/images/likeit.png"></a></p>
+                        <p style="font-size:30px"><a href="#">추천하기<img width="50px" src="${ctx}/resources/images/likeit.png"></a></p>
                     </div>
                 </td>
             </tr>
@@ -86,8 +86,8 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="resources/js/jquery-1.11.3.min.js"></script>
+<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="resources/js/bootstrap.js"></script>
+<script src="${ctx}/resources/js/bootstrap.js"></script>
 </body>
 </html>

@@ -24,7 +24,7 @@
 
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="resources/css/bootstrap.css">
+<link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -173,7 +173,7 @@
 				</table>
 				<br>
 
-				<script src="resources/js/bootstrap.js"></script>
+				<script src="${ctx}/resources/js/bootstrap.js"></script>
 				<div align="center">
 
 					<a href="#" class="btn btn-success" role="button">취소 </a> <a
@@ -196,8 +196,8 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="resources/js/jquery-1.11.3.min.js"></script>
+	<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="resources/js/bootstrap.js"></script>
+	<script src="${ctx}/resources/js/bootstrap.js"></script>
 </body>
 </html>

@@ -22,7 +22,7 @@
 
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="resources/css/bootstrap.css">
+    <link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -40,7 +40,7 @@
         <div class="caption text-center">
             <h3>일반회원</h3>
 
-            <p class="text-center"><a href="#" class="btn btn-success" role="button">GO</a></p>
+            <p class="text-center"><a href="${ctx}/user/joinView" class="btn btn-success" role="button">GO</a></p>
         </div>
     </div>
 
@@ -49,7 +49,7 @@
         <div class="caption text-center">
             <h3>디자이너</h3>
 
-            <p class="text-center"><a href="#" class="btn btn-success" role="button">GO</a></p>
+            <p class="text-center"><a href="${ctx}/designer/joinView" class="btn btn-success" role="button">GO</a></p>
         </div>
     </div>
 
@@ -58,7 +58,7 @@
         <div class="caption text-center">
             <h3>입점하기</h3>
 
-            <p class="text-center"><a href="#" class="btn btn-success" role="button">GO</a></p>
+            <p class="text-center"><a href="${ctx}/hairshop/joinView" class="btn btn-success" role="button">GO</a></p>
         </div>
     </div>
 
@@ -75,8 +75,8 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="resources/js/jquery-1.11.3.min.js"></script>
+<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="resources/js/bootstrap.js"></script>
+<script src="${ctx}/resources/js/bootstrap.js"></script>
 </body>
 </html>

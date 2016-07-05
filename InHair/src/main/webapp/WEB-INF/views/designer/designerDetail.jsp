@@ -22,7 +22,7 @@
 
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="resources/css/bootstrap.css">
+    <link rel="stylesheet" href="${ctx}/${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -36,18 +36,18 @@
 
 
         <div align="center"><img class="img-circle" alt="300x300" style="width: 300px; height: 300px;"
-                                 src="resources/images/Park.JPG" data-holder-rendered="true">
+                                 src="${ctx}/${ctx}/resources/images/Park.JPG" data-holder-rendered="true">
             <h3>박유철</h3>
             <p>★★★★★</p>
             <p>스스로 감탄할 정도로 잘함</p>
             <hr/>
             <h3 align="center">스타일</h3>
-            <div align="center"><img src="resources/images/line.png" width="40%"></div>
+            <div align="center"><img src="${ctx}/${ctx}/resources/images/line.png" width="40%"></div>
             <br>
 
             <div class="row text-center">
                 <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                    <div class="styles"><img src="resources/images/Andre03.JPG" alt="Thumbnail Image 1" class="img-responsive1">
+                    <div class="styles"><img src="${ctx}/${ctx}/resources/images/Andre03.JPG" alt="Thumbnail Image 1" class="img-responsive1">
                         <div class="caption">
                             <h3>남자 머리</h3>
                             <p>한줄 설명</p>
@@ -61,7 +61,7 @@
                 </div>
 
                 <div class="col-sm-4 col-md-4 col-lg-4 col-xs-6">
-                    <div class="styles"><img src="resources/images/Yoonkyo01-04.JPG" alt="Thumbnail Image 1"
+                    <div class="styles"><img src="${ctx}/${ctx}/resources/images/Yoonkyo01-04.JPG" alt="Thumbnail Image 1"
                                              class="img-responsive1">
                         <div class="caption">
                             <h3>우리헤어</h3>
@@ -83,7 +83,7 @@
         <br>
         <hr/>
         <h3 align="center">후기게시판</h3>
-        <div align="center"><img src="resources/images/line.png" width="40%"></div>
+        <div align="center"><img src="${ctx}/resources/images/line.png" width="40%"></div>
         <br>
 
 
@@ -151,8 +151,8 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="resources/js/jquery-1.11.3.min.js"></script>
+<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="resources/js/bootstrap.js"></script>
+<script src="${ctx}/resources/js/bootstrap.js"></script>
 </body>
 </html>

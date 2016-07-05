@@ -24,7 +24,7 @@
 
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="resources/css/bootstrap.css">
+<link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -275,7 +275,7 @@
 											저는 커트 전문입니다.
 											</h4>
 									</td>
-									<td width="35%"><img src="resources/images/logo.png"
+									<td width="35%"><img src="${ctx}/resources/images/logo.png"
 										width="100px" height="130px"></td>
 									<td width="15%">&nbsp;</td>
 								</tr>
@@ -330,7 +330,7 @@
 											저는 커트 전문입니다.
 											</h4>
 									</td>
-									<td width="35%"><img src="resources/images/logo.png"
+									<td width="35%"><img src="${ctx}/resources/images/logo.png"
 										width="100px" height="130px"></td>
 									<td width="15%">&nbsp;</td>
 								</tr>
@@ -500,9 +500,9 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="resources/js/jquery-1.11.3.min.js"></script>
+	<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="resources/js/bootstrap.js"></script>
+	<script src="${ctx}/resources/js/bootstrap.js"></script>
 	<script type="text/javascript">
 		$(document)
 				.ready(

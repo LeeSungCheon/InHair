@@ -23,7 +23,7 @@
 
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="resources/css/bootstrap.css">
+<link rel="stylesheet" href="${ctx}/resources/css/bootstrap.css">
 
 </head>
 <body>
@@ -91,7 +91,7 @@
 
 		<h2 align="center">디자이너</h2>
 		<div align="center">
-			<img src="resources/images/line.png" width="40%">
+			<img src="${ctx}/resources/images/line.png" width="40%">
 		</div>
 		<br> <br>
 
@@ -176,8 +176,8 @@
 
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="resources/js/jquery-1.11.3.min.js"></script>
+	<script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="resources/js/bootstrap.js"></script>
+	<script src="${ctx}/resources/js/bootstrap.js"></script>
 </body>
 </html>
