@@ -23,7 +23,6 @@
 <body>
 <div class="container">
 
-		<%@ include file="/header.jspf"%>
 	<%@ include file="/header.jspf" %>  
     <input id="tab1" type="radio" name="tabs" checked/>
     <label class="tab" for="tab1">소개</label>

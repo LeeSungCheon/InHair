@@ -55,15 +55,14 @@
                         <td><label for="textfield">소요시간</label></td>
                         <td style="padding-left:20px"><select>
                             <option>소요시간</option>
-
-                            <option>30분</option>
-                            <option>1시간</option>
-                            <option>1시간30분</option>
-                            <option>2시간</option>
-                            <option>2시간 30분</option>
-                            <option>3시간</option>
-                            <option>3시간 30분</option>
-                            <option>4시간</option>
+                            <option value="0">30분</option>
+                            <option value="1">1시간</option>
+                            <option value="2">1시간30분</option>
+                            <option value="3">2시간</option>
+                            <option value="4">2시간 30분</option>
+                            <option value="5">3시간</option>
+                            <option value="6">3시간 30분</option>
+                            <option value="7">4시간</option>
 
                         </select>
                         </td>

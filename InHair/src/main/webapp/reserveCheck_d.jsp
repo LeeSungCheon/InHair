@@ -68,8 +68,6 @@
                                     <td> 이지인
                                         <br>파마
                                         <br>010-0000-0000
-                                        <br><a href="#" class="btn btn-danger" role="button">취소 </a>
-                                        <a href="#" class="btn btn-danger" role="button"> 확인 </a>
                                     </td>
                                     <td></td>
                                     <td></td>
@@ -150,8 +148,7 @@
                                     <td>아이고
                                         <br>커트
                                         <br>010-0000-0000
-                                        <br><a href="#" class="btn btn-danger" role="button">취소 </a>
-                                        <a href="#" class="btn btn-danger" role="button"> 확인 </a></td>
+                                        </td>
                                 </tr>
                                 </tbody>
 

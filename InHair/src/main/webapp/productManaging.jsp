@@ -25,15 +25,16 @@
 <div class="container">
 
 		<%@ include file="/header.jspf"%>
+		
+        <h2 class="media-heading">상품 관리 </h2>
 
+                <hr align="left" style="border: solid 1px #EA5554; width:20%;">
     <div class="well">
 
 
-        <h2 class="media-heading">상품 관리
             <div style="text-align:right">
-                <hr align="left" style="border: solid 1px #EA5554; width:20%;">
                 <a href="#" class="btn btn-danger" role="button" align="left">등록 </a></div>
-        </h2>
+
         <h2 class="media-heading">
             <p class="text-right"></p>
         </h2>

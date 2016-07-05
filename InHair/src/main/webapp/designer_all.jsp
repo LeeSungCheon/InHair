@@ -36,51 +36,52 @@
 
 				<td class="table-condensed" align="right"><select>
 						<option>시/도</option>
-						<option value="1">서울특별시</option>
-						<option value="2">인천광역시</option>
-						<option value="3">경기도</option>
-						<option value="4">강원도</option>
-						<option value="5">충청북도</option>
-						<option value="6">충청남도</option>
-						<option value="7">세종특별자치시</option>
-						<option value="8">대구광역시</option>
-						<option value="9">경상북도</option>
-						<option value="10">전라북도</option>
-						<option value="11">전라남도</option>
-						<option value="12">광주광역시</option>
-						<option value="13">경상북도</option>
-						<option value="14">경상남도</option>
-						<option value="15">대구광역시</option>
-						<option value="16">울산광역시</option>
-						<option value="17">부산광역시</option>
-						<option value="18">제주도</option>
-				</select> </select> <select name="select">
-						<option>구</option>
-						<option value="1">강남구</option>
-						<option value="2">강동구</option>
-						<option value="3">강북구</option>
-						<option value="4">강서구</option>
-						<option value="5">관악구</option>
-						<option value="6">광진구</option>
-						<option value="7">구로구</option>
-						<option value="8">금천구</option>
-						<option value="9">노원구</option>
-						<option value="10">도봉구</option>
-						<option value="11">동대문구</option>
-						<option value="12">동작구</option>
-						<option value="13">마포구</option>
-						<option value="14">서대문구</option>
-						<option value="15">서초구</option>
-						<option value="16">성동구</option>
-						<option value="17">성북구</option>
-						<option value="18">송파구</option>
-						<option value="19">양천구</option>
-						<option value="20">영등포구</option>
-						<option value="21">용산구</option>
-						<option value="22">은평구</option>
-						<option value="23">종로구</option>
-						<option value="24">중구</option>
-						<option value="25">중랑구</option>
+							<option value="서울특별시">서울특별시</option>
+							<option value="인천광역시">인천광역시</option>
+							<option value="경기도">경기도</option>
+							<option value="강원도">강원도</option>
+							<option value="충청북도">충청북도</option>
+							<option value="충청남도">충청남도</option>
+							<option value="세종특별자치시">세종특별자치시</option>
+							<option value="대구광역시">대구광역시</option>
+							<option value="경상북도">경상북도</option>
+							<option value="전라북도">전라북도</option>
+							<option value="전라남도">전라남도</option>
+							<option value="광주광역시">광주광역시</option>
+							<option value="경상북도">경상북도</option>
+							<option value="경상남도">경상남도</option>
+							<option value="대구광역시">대구광역시</option>
+							<option value="울산광역시">울산광역시</option>
+							<option value="부산광역시">부산광역시</option>
+							<option value="제주도">제주도</option>
+					</select></td>
+					<td><select name="select">
+							<option>구</option>
+							<option value="강남구">강남구</option>
+							<option value="강동구">강동구</option>
+							<option value="강북구">강북구</option>
+							<option value="강서구">강서구</option>
+							<option value="관악구">관악구</option>
+							<option value="광진구">광진구</option>
+							<option value="구로구">구로구</option>
+							<option value="금천구">금천구</option>
+							<option value="노원구">노원구</option>
+							<option value="도봉구">도봉구</option>
+							<option value="동대문구">동대문구</option>
+							<option value="동작구">동작구</option>
+							<option value="마포구">마포구</option>
+							<option value="서대문구">서대문구</option>
+							<option value="서초구">서초구</option>
+							<option value="성동구">성동구</option>
+							<option value="성북구">성북구</option>
+							<option value="송파구">송파구</option>
+							<option value="양천구">양천구</option>
+							<option value="영등포구">영등포구</option>
+							<option value="용산구">용산구</option>
+							<option value="은평구">은평구</option>
+							<option value="종로구">종로구</option>
+							<option value="중구">중구</option>
+							<option value="중랑구">중랑구</option>
 				</select></td>
 				<td align="right" width="20px"><a href="#"
 					class="btn btn-danger" role="button">검색 </a></td>

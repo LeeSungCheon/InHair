@@ -25,12 +25,12 @@
 <div class="container">
 
 		<%@ include file="/header.jspf"%>
-
-    <div class="well">
-        <h2 class="media-heading">후기</h2>
+<h2 class="media-heading">후기</h2>
 
         <hr align="left" style="border: solid 1px #EA5554; width:20%;">
 
+    <div class="well">
+        
 
         <table class="table table-striped table-bordered table-hover" style="margin:auto;">
 

@@ -54,12 +54,12 @@
                         <td><label for="textfield">별점</label></td>
                         <td style="padding-left:20px"><select>
                             <option>선택</option>
-                            <option>★★★★★</option>
-                            <option>★★★★☆</option>
-                            <option>★★★☆☆</option>
-                            <option>★★☆☆☆</option>
-                            <option>★☆☆☆☆</option>
-                            <option>☆☆☆☆☆</option>
+                            <option value="">★★★★★</option>
+                            <option value="">★★★★☆</option>
+                            <option value="">★★★☆☆</option>
+                            <option value="">★★☆☆☆</option>
+                            <option value="">★☆☆☆☆</option>
+                            <option value="">☆☆☆☆☆</option>
 
                         </select></td>
                     </tr>
