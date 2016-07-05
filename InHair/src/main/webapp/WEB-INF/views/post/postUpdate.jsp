@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>portfolio update</title>
+<title>postUpdate</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Mobirise v2.7, mobirise.com">
@@ -23,10 +23,10 @@
 <body>
 <div class="container">
 
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
     <div>
 
-        <h2 class="media-heading">포트폴리오수정</h2>
+        <h2 class="media-heading">후기수정</h2>
         <hr align="left" style="border: solid 1px #EA5554; width:20%;">
 
 
@@ -43,23 +43,45 @@
                     <tbody>
                     <tr>
 
-                        <td><label for="textfield">시술명</label></td>
-                        <td><input class="form-control" type="text" name="password" id="iptPassword"
-                                   placeholder="시술명을 입력하세요." value="커트"></td>
-
+                        <td><label for="textfield">제목</label></td>
+                        <td><input type="text" class="form-control" name="name" id="iptName" placeholder=" 제목을 입력하세요."
+                                   value="감사합니다 종해쌤*^^*"></td>
                     </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><label for="textfield">별점</label></td>
+                        <td style="padding-left:20px"><select>
+                            <option>선택</option>
+                            <option value="">★★★★★</option>
+                            <option value="">★★★★☆</option>
+                            <option value="">★★★☆☆</option>
+                            <option value="">★★☆☆☆</option>
+                            <option value="">★☆☆☆☆</option>
+                            <option value="">☆☆☆☆☆</option>
+
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><label for="textfield">내용</label></td>
+                        <td><textarea style="height:80px" type="text" class="form-control" name="code" id=""
+                                      placeholder=" 후기 내용을 입력하세요.">남자머리 잘 하신다는 후기 보고 갔는데 정말 잘 하시네요!!^^감사합니다 덕분에 여자친구 생겼습니다~~</textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+
                     <tr>
                         <td><label for="textfield">사진</label></td>
                         <td><input style="margin:20px" type="file" id="photo" name="file"></td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td><label for="textfield">소개</label></td>
-                        <td><input type="text" class="form-control" name="name" id="iptName"
-                                   placeholder=" 간단한 설명을 입력하세요." value="올 여름 최신유행스타일!! 샤기컷"></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -74,11 +96,12 @@
                 <div align="center">
 
                     <a href="#" class="btn btn-success" role="button">취소 </a> <a href="#" class="btn btn-danger"
-                                                                                 role="button">등록 </a>
+                                                                                 role="button">수정 </a>
 
                     <br>
                 </div>
             </form>
+
 
         </div>
     </div>
@@ -99,10 +122,5 @@
 <script src="resources/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="resources/js/bootstrap.js"></script>
-
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="http://googledrive.com/host/0B-QKv6rUoIcGREtrRTljTlQ3OTg"></script><!-- ie10-viewport-bug-workaround.js -->
-<script src="http://googledrive.com/host/0B-QKv6rUoIcGeHd6VV9JczlHUjg"></script><!-- holder.js -->
 </body>
 </html>

@@ -30,7 +30,7 @@
 
 
 	<div class="container">
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
 		<form action="#" method="POST">
 			<table class="table" style="border: hidden">
 

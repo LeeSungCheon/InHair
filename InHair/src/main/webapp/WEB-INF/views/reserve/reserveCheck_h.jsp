@@ -23,7 +23,7 @@
 <body>
 
 <div class="container">
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
     <div>
 
         <h2 class="media-heading">예약현황</h2>

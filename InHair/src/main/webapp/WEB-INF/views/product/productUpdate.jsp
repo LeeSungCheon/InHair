@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>portfolio</title>
+<title>productUpdate</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Mobirise v2.7, mobirise.com">
@@ -15,19 +15,17 @@
 <link rel="shortcut icon"
 	href="assets/images/discover-mobile-350x350-16.png" type="image/x-icon">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
 <!-- Bootstrap -->
 <link rel="stylesheet" href="resources/css/bootstrap.css">
 
 </head>
 <body>
-
 <div class="container">
 
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
     <div>
 
-        <h2 class="media-heading">포트폴리오</h2>
+        <h2 class="media-heading">상품정보 수정</h2>
         <hr align="left" style="border: solid 1px #EA5554; width:20%;">
 
 
@@ -42,25 +40,41 @@
 
                 <table width="600" border="0" align="center">
                     <tbody>
-                    <tr>
 
+
+                    <tr>
                         <td><label for="textfield">시술명</label></td>
-                        <td><input class="form-control" type="text" name="password" id="iptPassword"
-                                   placeholder="시술명을 입력하세요."></td>
+                        <td><input type="text" class="form-control" name="name" id="iptName" placeholder=" 시술명"
+                                   value="커트"></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><label for="textfield">소요시간</label></td>
+                        <td style="padding-left:20px"><select>
+                            <option>소요시간</option>
+                            <option value="0">30분</option>
+                            <option value="1">1시간</option>
+                            <option value="2">1시간30분</option>
+                            <option value="3">2시간</option>
+                            <option value="4">2시간 30분</option>
+                            <option value="5">3시간</option>
+                            <option value="6">3시간 30분</option>
+                            <option value="7">4시간</option>
 
-                    </tr>
-                    <tr>
-                        <td><label for="textfield">사진</label></td>
-                        <td><input style="margin:20px" type="file" id="photo" name="file"></td>
+                        </select>
+                        </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td><label for="textfield">소개</label></td>
-                        <td><input type="text" class="form-control" name="name" id="iptName"
-                                   placeholder=" 간단한 설명을 입력하세요."></td>
+                        <td><label for="textfield">가격</label></td>
+                        <td><input type="text" class="form-control" name="code" id="" placeholder=" 00,000원"
+                                   value="20,000원"></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -71,20 +85,16 @@
                 </table>
                 <br>
 
-                <script src="resources/js/bootstrap.js"></script>
                 <div align="center">
 
                     <a href="#" class="btn btn-success" role="button">취소 </a> <a href="#" class="btn btn-danger"
-                                                                                 role="button">등록 </a>
+                                                                                 role="button">수정 </a>
 
                     <br>
                 </div>
             </form>
-
         </div>
     </div>
-
-
 </div>
 
 
@@ -100,10 +110,5 @@
 <script src="resources/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="resources/js/bootstrap.js"></script>
-
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="http://googledrive.com/host/0B-QKv6rUoIcGREtrRTljTlQ3OTg"></script><!-- ie10-viewport-bug-workaround.js -->
-<script src="http://googledrive.com/host/0B-QKv6rUoIcGeHd6VV9JczlHUjg"></script><!-- holder.js -->
 </body>
 </html>

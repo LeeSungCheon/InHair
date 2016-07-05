@@ -29,7 +29,7 @@
 
 <div class="container">
 
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
     <h2 class="media-heading">회원가입</h2>
     <hr align="left" style="border: solid 1px #EA5554; width:20%;">
 

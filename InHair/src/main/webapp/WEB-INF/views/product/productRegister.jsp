@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>postUpdate</title>
+<title>productRegister</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Mobirise v2.7, mobirise.com">
@@ -21,12 +21,13 @@
 
 </head>
 <body>
+
 <div class="container">
 
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
     <div>
 
-        <h2 class="media-heading">후기수정</h2>
+        <h2 class="media-heading">상품 등록</h2>
         <hr align="left" style="border: solid 1px #EA5554; width:20%;">
 
 
@@ -41,47 +42,38 @@
 
                 <table width="600" border="0" align="center">
                     <tbody>
-                    <tr>
 
-                        <td><label for="textfield">제목</label></td>
-                        <td><input type="text" class="form-control" name="name" id="iptName" placeholder=" 제목을 입력하세요."
-                                   value="감사합니다 종해쌤*^^*"></td>
+                    <tr>
+                        <td><label for="textfield">시술명</label></td>
+                        <td><input type="text" class="form-control" name="name" id="iptName" placeholder=" 시술명"></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td><label for="textfield">별점</label></td>
+                        <td><label for="textfield">소요시간</label></td>
                         <td style="padding-left:20px"><select>
-                            <option>선택</option>
-                            <option value="">★★★★★</option>
-                            <option value="">★★★★☆</option>
-                            <option value="">★★★☆☆</option>
-                            <option value="">★★☆☆☆</option>
-                            <option value="">★☆☆☆☆</option>
-                            <option value="">☆☆☆☆☆</option>
+                            <option>소요시간</option>
+                            <option value="0">30분</option>
+                            <option value="1">1시간</option>
+                            <option value="2">1시간30분</option>
+                            <option value="3">2시간</option>
+                            <option value="4">2시간 30분</option>
+                            <option value="5">3시간</option>
+                            <option value="6">3시간 30분</option>
+                            <option value="7">4시간</option>
 
-                        </select></td>
-                    </tr>
-                    <tr>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                    </tr>
-                    <tr>
-                        <td><label for="textfield">내용</label></td>
-                        <td><textarea style="height:80px" type="text" class="form-control" name="code" id=""
-                                      placeholder=" 후기 내용을 입력하세요.">남자머리 잘 하신다는 후기 보고 갔는데 정말 잘 하시네요!!^^감사합니다 덕분에 여자친구 생겼습니다~~</textarea>
+                        </select>
                         </td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                     </tr>
-
                     <tr>
-                        <td><label for="textfield">사진</label></td>
-                        <td><input style="margin:20px" type="file" id="photo" name="file"></td>
+                        <td><label for="textfield">가격</label></td>
+                        <td><input type="text" class="form-control" name="code" id="" placeholder=" 00,000원"></td>
                     </tr>
                     <tr>
                         <td>&nbsp;</td>
@@ -92,21 +84,17 @@
                 </table>
                 <br>
 
-                <script src="resources/js/bootstrap.js"></script>
+                <!-- <script src="resources/js/bootstrap.js"></script> -->
                 <div align="center">
 
                     <a href="#" class="btn btn-success" role="button">취소 </a> <a href="#" class="btn btn-danger"
-                                                                                 role="button">수정 </a>
+                                                                                 role="button">등록 </a>
 
                     <br>
                 </div>
             </form>
-
-
         </div>
     </div>
-
-
 </div>
 
 

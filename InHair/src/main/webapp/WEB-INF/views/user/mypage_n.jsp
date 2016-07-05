@@ -28,7 +28,7 @@
 <body>
 <div class="container">
 
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
 
     <input id="tab1" type="radio" name="tabs" checked/>
     <label class="tab" for="tab1">마이 페이지</label>

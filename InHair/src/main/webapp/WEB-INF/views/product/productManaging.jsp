@@ -24,7 +24,7 @@
 
 <div class="container">
 
-		<%@ include file="/WEB-INF/header.jspf"%>
+		<%@ include file="/WEB-INF/views/header/header.jspf"%>
 		
         <h2 class="media-heading">상품 관리 </h2>
 
