@@ -33,7 +33,7 @@
     <h2 class="media-heading">회원가입</h2>
     <hr align="left" style="border: solid 1px #EA5554; width:20%;">
     <div class="well"><br>
-        <form class="form-horizontal" id="" action="#" method="POST">
+        <form class="form-horizontal" id="formJoin" action="${ctx}/user/join" method="POST">
             <table width="600" border="0" align="center">
                 <tbody>
                 <tr>
@@ -78,7 +78,7 @@
                 </tr>
                 <tr>
                     <td><label for="textfield">PHONE</label></td>
-                    <td><input type="text" name="phoneNum" id="phone" placeholder=" 000-0000-0000"></td>
+                    <td><input type="text" name="phonenum" id="iptPhone" placeholder=" 000-0000-0000"></td>
                 </tr>
                 <tr>
                     <td>&nbsp;</td>
@@ -113,5 +113,87 @@
 <script src="${ctx}/resources/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="${ctx}/resources/js/bootstrap.js"></script>
+
+<script type="text/javascript">
+    	var validate = function() {
+    		if(document.getElementById("iptLoginId").value == "") {
+    			alert("아이디를 입력하세요");
+    			document.getElementById("iptLoginId").focus();
+    			return false;
+    		}
+    		if(document.getElementById("iptName").value == "") {
+    			alert("이름을 입력하세요");
+    			document.getElementById("iptName").focus();
+    			return false;
+    		}
+    		
+    		if(document.getElementById("iptEmail").value == "") {
+    			alert("이메일을 입력하세요");
+    			document.getElementById("iptEmail").focus();
+    			return false;
+    		}
+    		
+    		if(document.getElementById("iptPassword").value == "") {
+    			alert("비밀번호를 입력하세요");
+    			document.getElementById("iptPassword").focus();
+    			return false;
+    		}
+
+    		if(document.getElementById("iptRePassword").value == "") {
+    			alert("비밀번호 확인을 입력하세요");
+    			document.getElementById("iptRePassword").focus();
+    			return false;
+    		}
+    		
+    		if(document.getElementById("iptPhone").value == "") {
+    			alert("휴대폰번호를 입력하세요");
+    			document.getElementById("iptPhone").focus();
+    			return false;
+    		}
+    		
+    		//비밀번호, 비밀번호 확인 항목이 일치하는지 비교
+    		if(document.getElementById("iptPassword").value != document.getElementById("iptRePassword").value) {
+    			alert("비밀번호가 일치하지 않습니다.");
+    			document.getElementById("iptPassword").value = "";
+    			document.getElementById("iptRePassword").value = "";
+    			document.getElementById("iptPassword").focus();
+    			return false;
+    		}
+    		
+    		return true;
+    	};
+    	
+    	var join = function() {
+    		if(validate()) {
+    			document.getElementById("formJoin").submit();
+    		}
+    	};
+    	
+    	$("#iptLoginId").keyup(function() {
+    		if($(this).val().length < 4) {
+    			$("#dplPrint").text("4자 이상 입력하세요.");
+    		}
+    		else {
+    			$.ajax({
+    				type: "POST",
+    				url: "${pageContext.request.contextPath}/user/idCheck",
+    				data: {
+    					"loginId" : $("#iptLoginId").val()
+    				},
+    				success: function(data) {
+    					
+    					if(data == "true"){
+    						$("#dplPrint").text("이미 사용중인 아이디 입니다.");
+    					}
+    					else {
+    						$("#dplPrint").text("사용가능한 아이디 입니다.");
+    					}
+    				}
+    			});
+    		}
+    		
+    	}); 
+    </script>
+
 </body>
 </html>
