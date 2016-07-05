@@ -12,12 +12,14 @@ public class User {
 	
 	public User(){}
 	
-	public User(String id, String password,	String name, String phonenum, String email){
+	public User(String id, String password, String name, String phonenum, String email, String rank, int mileage) {
 		this.id = id;
 		this.password = password;
 		this.name = name;
 		this.phonenum = phonenum;
 		this.email = email;
+		this.rank = rank;
+		this.mileage = mileage;
 	}
 	
 	public String getRank() {
